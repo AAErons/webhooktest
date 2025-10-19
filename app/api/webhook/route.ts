@@ -2,15 +2,12 @@ import { insertRequest } from '../../../db';
 
 export const runtime = 'nodejs';
 
-export async function ANY(req: Request) {
-	return handle(req);
-}
-
 export async function GET(req: Request) { return handle(req); }
 export async function POST(req: Request) { return handle(req); }
 export async function PUT(req: Request) { return handle(req); }
 export async function PATCH(req: Request) { return handle(req); }
 export async function DELETE(req: Request) { return handle(req); }
+export async function OPTIONS() { return new Response(null, { status: 204 }); }
 
 async function handle(req: Request) {
 	const headersObj: Record<string, string> = {};
