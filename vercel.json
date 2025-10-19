@@ -2,6 +2,10 @@
 	"version": 2,
 	"builds": [
 		{ "src": "api/**/*.ts", "use": "@vercel/node@3.0.22" }
+	],
+	"routes": [
+		{ "src": "^/$", "dest": "/api/health" },
+		{ "src": "^/(.*)$", "dest": "/api/$1" }
 	]
 }
 
