@@ -3,8 +3,8 @@
 	"functions": {
 		"api/[...all].js": { "runtime": "nodejs18.x" }
 	},
-	"rewrites": [
-		{ "source": "/(.*)", "destination": "/api/[...all].js" }
+	"routes": [
+		{ "src": "/(.*)", "dest": "/api/[...all].js" }
 	]
 }
 
