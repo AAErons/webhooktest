@@ -1,12 +1,10 @@
 {
 	"version": 2,
 	"functions": {
-		"api/[...all].ts": { "runtime": "nodejs18.x" },
-		"api/index.ts": { "runtime": "nodejs18.x" }
+		"api/[...all].ts": { "runtime": "nodejs18.x" }
 	},
 	"routes": [
-		{ "src": "/api", "dest": "/api/index.ts" },
-		{ "src": "/(.*)", "dest": "/api/[...all].ts" }
+		{ "src": "/(.*)", "dest": "/api/[...all]" }
 	]
 }
 
