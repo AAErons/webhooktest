@@ -1,4 +1,4 @@
-import { insertRequest } from '../../db';
+import { insertRequest } from '../db';
 
 export default async function handler(req: any, res: any) {
 	const headers = req.headers || {};
