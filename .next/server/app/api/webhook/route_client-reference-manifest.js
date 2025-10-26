@@ -1,0 +1,1 @@
+globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/api/webhook/route"]={"moduleLoading":{"prefix":"/_next/"},"ssrModuleMapping":{},"edgeSSRModuleMapping":{},"clientModules":{},"entryCSSFiles":{"C:\\Users\\eriks\\webhook-test\\":[],"C:\\Users\\eriks\\webhook-test\\app\\api\\webhook\\route":[]},"rscModuleMapping":{},"edgeRscModuleMapping":{}}
