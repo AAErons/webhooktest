@@ -1,0 +1,5 @@
+{
+    "crons": [
+      { "path": "/api/cron/close-timeslots", "schedule": "*/5 * * * *" }
+    ]
+  }
